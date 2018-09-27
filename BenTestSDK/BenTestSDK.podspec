@@ -20,4 +20,5 @@ s.source       = { :git => "https://github.com/lufubinGit/BENTEstFramework.git",
 s.source_files  = 'BenTestSDK/**/*.{h,m,mm}','BenTestSDK/*.{h,m,mm}'
 s.requires_arc = true
 s.frameworks = 'UIKit', 'Foundation'
+s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto" }
 end
