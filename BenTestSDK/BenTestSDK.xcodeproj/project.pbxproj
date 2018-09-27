@@ -75,9 +75,8 @@
 		5758E2D9215CBFC9009B9887 /* BenTestSDK */ = {
 			isa = PBXGroup;
 			children = (
+				5758E2F5215CD05D009B9887 /* classes */,
 				5758E2DA215CBFC9009B9887 /* BenTestSDK.h */,
-				5758E2F1215CC277009B9887 /* TestTool.h */,
-				5758E2F2215CC277009B9887 /* TestTool.m */,
 				5758E2DB215CBFC9009B9887 /* Info.plist */,
 			);
 			path = BenTestSDK;
@@ -90,6 +89,15 @@
 				5758E2E7215CBFC9009B9887 /* Info.plist */,
 			);
 			path = BenTestSDKTests;
+			sourceTree = "<group>";
+		};
+		5758E2F5215CD05D009B9887 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				5758E2F1215CC277009B9887 /* TestTool.h */,
+				5758E2F2215CC277009B9887 /* TestTool.m */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
