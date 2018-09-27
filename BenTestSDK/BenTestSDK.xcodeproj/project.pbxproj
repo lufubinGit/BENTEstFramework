@@ -10,6 +10,8 @@
 		5758E2E1215CBFC9009B9887 /* BenTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5758E2D7215CBFC9009B9887 /* BenTestSDK.framework */; };
 		5758E2E6215CBFC9009B9887 /* BenTestSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5758E2E5215CBFC9009B9887 /* BenTestSDKTests.m */; };
 		5758E2E8215CBFC9009B9887 /* BenTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5758E2DA215CBFC9009B9887 /* BenTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5758E2F3215CC277009B9887 /* TestTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5758E2F1215CC277009B9887 /* TestTool.h */; };
+		5758E2F4215CC277009B9887 /* TestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5758E2F2215CC277009B9887 /* TestTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		5758E2E0215CBFC9009B9887 /* BenTestSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenTestSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5758E2E5215CBFC9009B9887 /* BenTestSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenTestSDKTests.m; sourceTree = "<group>"; };
 		5758E2E7215CBFC9009B9887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5758E2F1215CC277009B9887 /* TestTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTool.h; sourceTree = "<group>"; };
+		5758E2F2215CC277009B9887 /* TestTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				5758E2DA215CBFC9009B9887 /* BenTestSDK.h */,
+				5758E2F1215CC277009B9887 /* TestTool.h */,
+				5758E2F2215CC277009B9887 /* TestTool.m */,
 				5758E2DB215CBFC9009B9887 /* Info.plist */,
 			);
 			path = BenTestSDK;
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5758E2F3215CC277009B9887 /* TestTool.h in Headers */,
 				5758E2E8215CBFC9009B9887 /* BenTestSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5758E2F4215CC277009B9887 /* TestTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

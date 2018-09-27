@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name         = "Bentest"
+s.name         = "BenTest"
 s.version      = "0.0.1"
 s.summary      = "Bentest是一个快速开发工具包"
 s.description  = "Bentest是一个开发工具包,包含了一些控件封装，工具类等，可加快开发速度。"
