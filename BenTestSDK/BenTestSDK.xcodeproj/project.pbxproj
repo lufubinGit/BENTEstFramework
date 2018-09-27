@@ -366,6 +366,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bbb.BenTestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -391,6 +392,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bbb.BenTestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
