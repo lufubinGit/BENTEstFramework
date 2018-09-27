@@ -19,4 +19,5 @@ s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/lufubinGit/BENTEstFramework.git", :tag => s.version }
 s.source_files  = 'BenTestSDK/**/*.{h,m,mm}','BenTestSDK/*.{h,m,mm}'
 s.requires_arc = true
+s.frameworks = 'UIKit', 'Foundation'
 end
