@@ -8,7 +8,7 @@ s.license      = "MIT"
 s.author             = { "lufubin" => "lufubin147@hotmail.com" }
 s.platform     = :ios
 s.source       = { :git => "https://github.com/lufubinGit/BENTEstFramework.git", :tag => "#{s.version}" }
-s.source_files  = "Classes", "Classes/**/*.{h,m}"
-s.exclude_files = "Classes/Exclude"
+s.source_files  = "BenTestSDK", "BenTestSDK/**/*.{h,m}"
+s.exclude_files = "BenTestSDK/Exclude"
 end
 
