@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "BenTestSDK"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "BenTestSDK工具类简介2018年04月"
 s.description  = "BenTestSDK工具类详细简介2018年04月22日13:44:24"
 s.homepage     = "https://www.baidu.com"
