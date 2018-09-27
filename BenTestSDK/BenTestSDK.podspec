@@ -17,6 +17,6 @@ s.license      = "MIT"
 s.authors            = { "朱允见" => "719307805@qq.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/lufubinGit/BENTEstFramework.git", :tag => s.version }
-s.source_files  = "BenTestSDK", "BenTestSDK/*.{h,m}"
+s.source_files  = "BenTestSDK/*"
 s.requires_arc = true
 end
